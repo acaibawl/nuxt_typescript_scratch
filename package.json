@@ -1,7 +1,8 @@
 {
   "name": "nuxt-typescript-scratch",
   "scripts": {
-    "dev": "nuxt-ts"
+    "dev": "nuxt-ts",
+    "test": "jest"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.1.0",
@@ -9,6 +10,9 @@
     "nuxt-property-decorator": "^2.9.1"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^2.1.0"
+    "@nuxt/typescript-build": "^2.1.0",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3"
   }
 }
